@@ -7,8 +7,11 @@ replete with escape codes, into formatted HTML.
 
 Ansiparse is distributed under the ISC license.
 
-Homepage: https://github.com/jdjakub/ansi-parse
-Contact: Joel Jakubovic `<jdj27@cam.ac.uk>`
+Homepage: https://github.com/diskuv/ansi-parse
+
+Original Author: Joel Jakubovic
+
+Maintainer: Jonah Beckford
 
 ## Installation
 

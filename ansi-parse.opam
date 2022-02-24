@@ -1,11 +1,11 @@
 version: "dev"
 opam-version: "2.0"
 license: "ISC"
-maintainer: "Joel Jakubovic"
+maintainer: ["opensource+ansi-parse@support.diskuv.com"]
 authors: "Joel Jakubovic"
-dev-repo: "git+https://github.com/jdjakub/ansi-parse.git"
-homepage: "https://github.com/jdjakub/ansi-parse"
-bug-reports: "https://github.com/jdjakub/ansi-parse/issues"
+dev-repo: "git+https://github.com/diskuv/ansi-parse.git"
+homepage: "https://github.com/diskuv/ansi-parse"
+bug-reports: "https://github.com/diskuv/ansi-parse/issues"
 depends: [
   "ocaml"         { >= "4.03" }
   "dune"          { >= "2.9" }
@@ -30,5 +30,5 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-doc: "https://jdjakub.github.io/ansi-parse/doc"
+# FIXME: doc: "https://diskuv.github.io/ansi-parse/doc"
 synopsis: "Ansiparse is a library for converting raw terminal output, replete with escape codes, into formatted HTML"
